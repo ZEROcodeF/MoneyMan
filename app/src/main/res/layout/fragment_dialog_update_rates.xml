@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:padding="@dimen/scale_size_big"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ProgressBar
+            android:id="@+id/progressBarUpdateTask"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/scale_size_small"
+            android:indeterminate="true" />
+
+        <TextView
+            android:id="@+id/messagePleaseWait"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đang cập nhập tỷ giá" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/messageUpdateTaskResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_normal"
+        android:text="Cập nhật tỷ giá thành công!" />
+
+    <TextView
+        android:id="@+id/messageUpdateTaskLatestUse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/scale_size_small"
+        android:textStyle="bold"
+        android:textSize="@dimen/text_size_normal"
+        android:text="Sử dụng tỷ giá cập nhật lần cuối" />
+
+    <TextView
+        android:id="@+id/messageUpdateTaskInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/scale_size_small"
+        android:textSize="12sp"
+        android:textColor="@color/colorPrimary"
+        android:text="ⓘ Cập nhật lần cuối vào 20:30 20/08/2018" />
+
+    <Button
+        android:id="@+id/btnUpdatesTaskAgree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_button_teal"
+        android:text="Đồng ý"
+        android:textColor="@color/colorWhite" />
+
+</LinearLayout>

@@ -1,0 +1,66 @@
+<resources>
+    <!--Đặt chuổi và nhóm theo file java/xml cùng tên-->
+    <string name="app_name">MoneyMan</string>
+    <string name="title_overview">Tổng quan</string>
+    <string name="title_account">Tài khoản</string>
+    <string name="title_chart">Biểu đồ</string>
+    <string name="title_history">Lịch sử</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="google_map_key">AIzaSyCaaOygETirVHean0UNJbgL2vK833zvoHw</string>
+    <string name="google_places_key">AIzaSyDIXWRp2cIiPnqALLW5S1ohW5NKAJqiY74</string>
+    <string name="title_activity_maps">Current Place Details</string>
+    <string name="default_info_title">Default Location</string>
+    <string name="default_info_snippet">No places found, because location permission is disabled.</string>
+    <string name="option_get_place">Get place</string>
+    <string name="pick_place">Choose a place</string>
+
+    <!--UpdateRatesTask.java-->
+    <string name="no_empty_start_end_date">Ngày bắt đầu và ngày kết thúc không được trống!</string>
+    <string name="total_income_between">Tổng thu nhập trong thời gian</string>
+    <string name="total_paid_between">Tổng chi phí trong thời gian</string>
+    <string name="no_internet_connection">Không có kết nối Internet</string>
+    <string name="rates_changes_at">ⓘ Tỷ giá thay đổi lúc:</string>
+    <string name="update_successful">Cập nhật thành công!</string>
+    <string name="update_failed">Cập nhật thất bại!</string>
+
+    <!--CreatePassword.java & EnterPassword.java-->
+    <string name="invalid_password">Mật khẩu không hợp lệ</string>
+    <string name="incorrect_password">Mật khẩu không chính xác</string>
+
+    <!--FirstWalletActivity.java-->
+    <string name="not_empty_wallet_name">Tên ví không được rỗng</string>
+    <string name="invalid_amount_of_money">Tiền không hợp lệ</string>
+
+    <!--MainActivity.java-->
+    <string name="overview_title">Tổng quan</string>
+    <string name="setttings_title">Settings</string>
+
+    <!--MapsActivity.java-->
+    <string name="find_atm_title">Tìm kiếm ATM</string>
+    <string name="cannot_find_current_location_message">Không thể xác định vị trí hiện tại, vui lòng bật vị trí định vị</string>
+    <string name="current_positon_maker_title">Vị trí hiện tại</string>
+    <string name="dlg_location_permission_needed_title">Cần quyền truy cập Location</string>
+    <string name="dlg_msg_location_permission_needed">This app needs the Location permission, please accept to use location functionality</string>
+    <string name="agree_btn_text">Đồng ý</string>
+    <string name="msg_permission_denied">Bị chặn quyền truy cập!</string>
+
+    <!--TODO: old to delete-->
+    <string name="settings_greeting_text">Hello blank fragment</string>
+
+    <!--Settings java-->
+    <string name="settings_hello_blank_fragment">Hello blank fragment</string>
+    <string name="switch_message">"Switch set to"</string>
+    <string name="switch_summary">Turn this option on or off</string>
+    <string name="switch_title">Tên tài khoản</string>
+    <string name="attention_msg_include_many_unit">ⓘ Bao gồm ví đơn vị khác mặc định</string>
+
+    <!--DialogFragmentOtherUnits.java-->
+    <string name="msg_dialog_other_units_included">gồm</string>
+    <string name="dialog_fragment_other_units_msg_info">ⓘ Tỷ giá thay đổi lúc:</string>
+    <string name="maps_activity_btn_change_title_map">Bản đồ</string>
+    <string name="maps_activity_btn_change_title_satellite">Vệ tinh</string>
+    <string name="maps_activity_btn_find_atm_title">Tìm ATM</string>
+
+</resources>

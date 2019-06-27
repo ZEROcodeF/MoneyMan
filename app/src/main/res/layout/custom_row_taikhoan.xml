@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="false"
+    android:descendantFocusability="blocksDescendants"
+    card_view:cardUseCompatPadding="true"
+    card_view:cardCornerRadius="@dimen/scale_size_small">
+
+    <LinearLayout
+        android:id="@+id/setItemBackgroundColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/scale_size_normal"
+        android:layout_marginRight="@dimen/scale_size_normal"
+        android:layout_marginTop="@dimen/scale_size_small"
+        android:layout_marginBottom="@dimen/scale_size_small"
+        android:orientation="horizontal"
+        android:weightSum="9">
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/scale_size_small"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:maxWidth="30dp"
+            android:maxHeight="30dp"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"
+            android:src="@drawable/abc_small" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_weight="7">
+
+            <TextView
+                android:id="@+id/ten"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorGrey800"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_size_medium"
+                android:text="Tên" />
+
+            <TextView
+                android:id="@+id/tienhientai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_size_giant"
+                android:text="99,999,999VND" />
+
+            <TextView
+                android:id="@+id/ngaytao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:textSize="@dimen/text_size_tiny"
+                android:text="01/01/2019" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:background="@color/colorGrey500"
+            android:paddingTop="@dimen/scale_size_normal"
+            android:paddingBottom="@dimen/scale_size_normal" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <Button
+                android:id="@+id/btnAdd"
+                android:layout_width="@dimen/scale_size_giant"
+                android:layout_height="@dimen/scale_size_giant"
+                android:background="@drawable/ic_add_circle_outline_black_24dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/colorPrimary"/>
+            <Button
+                android:id="@+id/btnSubtract"
+                android:layout_width="@dimen/scale_size_giant"
+                android:layout_height="@dimen/scale_size_giant"
+                android:background="@drawable/ic_remove_circle_outline_black_24dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/colorAccent"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

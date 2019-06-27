@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/text_size_medium">
+
+    <TextView
+        android:id="@+id/tvTaovimoi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Tạo ví mới"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/text_size_giant"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/scale_size_normal"
+            android:src="@drawable/ic_question_answer_black_24dp" />
+
+        <EditText
+            android:id="@+id/edtTenvi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập tên ví"
+            android:inputType="textCapWords" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edtTienbandau"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Nhập số tiền ban đầu"
+        android:inputType="number"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/teal_background_edit_text_hint_color"
+        android:textSize="@dimen/text_size_big"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/scale_size_small"
+        android:layout_marginBottom="@dimen/scale_size_small"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtSymbolofUnit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/text_size_big"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:text="Đơn vị tiền"
+            android:textColor="#000"
+            android:textSize="@dimen/text_size_medium" />
+
+        <Spinner
+            android:id="@+id/spndonvi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:scrollbarSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_date_range_black_24dp" />
+
+        <TextView
+            android:id="@+id/tvNgaytao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edtGhichu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ghi chú (không bắt buộc)" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/scale_size_normal"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/scale_size_giant"
+        android:paddingRight="@dimen/scale_size_giant">
+
+        <Button
+            android:id="@+id/btnLuu"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_button_teal"
+            android:text="LƯU"
+            android:textColor="@color/colorWhite" />
+
+        <TextView
+            android:id="@+id/txtHuy"
+            android:layout_width="80sp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/scale_size_medium"
+            android:background="@color/colorWhite"
+            android:gravity="center"
+            android:text="HỦY"
+            android:textSize="@dimen/text_size_small" />
+
+    </LinearLayout>
+
+</LinearLayout>

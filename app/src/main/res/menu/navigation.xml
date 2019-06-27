@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_tongquan"
+        android:icon="@drawable/selector_home"
+        android:title="@string/title_overview"></item>
+
+    <item
+        android:id="@+id/navigation_taikhoan"
+        android:icon="@drawable/selector_account"
+        android:title="@string/title_account" />
+
+    <item
+        android:id="@+id/navigation_bieudo"
+        android:icon="@drawable/selector_chart"
+        android:title="@string/title_chart" />
+
+    <item
+        android:id="@+id/navigation_cacgiaodich"
+        android:icon="@drawable/selector_history"
+        android:title="@string/title_history" />
+</menu>

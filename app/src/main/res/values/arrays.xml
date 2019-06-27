@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Setting-->
+
+    <string-array name="list_Currency">
+        <item>VND</item>
+        <item>EUR</item>
+        <item>USD</item>
+        <item>GBP</item>
+        <item>JPY</item>
+        <item>AUD</item>
+    </string-array>
+
+    <string-array name="list_Currency_symbols">
+        <item>₫</item>
+        <item>€</item>
+        <item>$</item>
+        <item>£</item>
+        <item>¥</item>
+        <item>A</item>
+    </string-array>
+
+    <string-array name="list_setting">
+        <item>Thông tin Username</item>
+        <item>Thiết lập mật khẩu</item>
+        <item>Thông tin nhà phát triển</item>
+    </string-array>
+
+
+    <!--giaodich-->
+    <string-array name="list_giaodich_cacluachon">
+        <item>Các khoản Thu vào</item>
+        <item>Các khoản Chi ra</item>
+        <item>Các khoản Cho vay</item>
+        <item>Các khoản Đi vay</item>
+        <item>Tất cả Thu Chi</item>
+    </string-array>
+
+    <string-array name="list_Hangmucthu">
+        <item>Tiền lương</item>
+        <item>Tiền làm thêm</item>
+        <item>Tiền trợ cấp</item>
+        <item>Lãi cho vay</item>
+        <item>Tiền tiết kiệm</item>
+        <item>Khác...</item>
+    </string-array>
+
+
+    <string-array name="list_Hangmucchi">
+        <item>Tiền xe cộ</item>
+        <item>Tiền ăn uống</item>
+        <item>Tiền giải trí</item>
+        <item>Tiền sức khỏe</item>
+        <item>Chi phí cá nhân</item>
+        <item>Tiền sinh hoạt gia đình</item>
+        <item>Khác...</item>
+    </string-array>
+
+
+</resources>

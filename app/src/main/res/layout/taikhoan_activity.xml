@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/layout_taikhoan"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/taikhoan_total_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="0dp"
+            card_view:cardCornerRadius="0dp"
+            card_view:cardUseCompatPadding="false">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/scale_size_small"
+                android:layout_marginBottom="@dimen/scale_size_small"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="@dimen/scale_size_small"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.5">
+
+                    <TextView
+                        android:text="Tổng"
+                        android:textSize="@dimen/text_size_giant"
+                        android:textColor="@color/colorPrimary"
+                        android:gravity="left"
+                        android:textStyle="bold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/taikhoan_include_many_units"
+                        android:text="@string/attention_msg_include_many_unit"
+                        android:textSize="8sp"
+                        android:textColor="@color/colorAccent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tvTong"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginEnd="@dimen/scale_size_small"
+                    android:gravity="right"
+                    android:layout_gravity="center_vertical"
+                    android:text="9,000,000,000VND"
+                    android:textSize="@dimen/text_size_giant"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"
+                    android:layout_weight="0.5" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <ListView
+            android:id="@+id/list_Taikhoan"
+            android:dividerHeight="@dimen/scale_size_tiny"
+            android:divider="@null"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_taikhoan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/scale_size_giant"
+        android:layout_marginRight="@dimen/scale_size_normal"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="@color/colorPrimary"
+        android:src="@drawable/ic_add_black_24dp" />
+
+</RelativeLayout>

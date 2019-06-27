@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Thêm chi phí"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:src="@drawable/ic_monetization_on_black_24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/edt_fab_Tienchitieu"
+                android:hint="Số tiền chi ra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:src="@drawable/ic_web_black_24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+
+                android:text="Chọn ví"
+                android:layout_marginLeft="15dp"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Spinner
+                android:id="@+id/spnChonvichitieu"
+                android:layout_weight="1"
+                android:layout_marginLeft="15dp"
+                android:scrollbarSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Spinner>
+
+            <!--<Button-->
+            <!--android:id="@+id/btnChonvichitieu"-->
+            <!--android:text="Select"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:src="@drawable/ic_date_range_black_24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvNgaychi"
+                android:layout_marginLeft="15dp"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+
+        <RadioGroup
+            android:id="@+id/Loaichi"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/Chithuong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chi thường"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginRight="20dp"
+                android:checked="false" />
+
+            <RadioButton
+                android:id="@+id/Chovay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cho vay"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:checked="false" />
+        </RadioGroup>
+
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:src="@drawable/ic_content_paste_black_24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="Hạng mục chi"
+                android:id="@+id/tvHangmucchi"
+                android:layout_marginLeft="15dp"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <Spinner
+                android:id="@+id/spnHangmucchi"
+                android:layout_gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Spinner>
+
+
+        </LinearLayout>
+
+        <!--<LinearLayout-->
+        <!--android:layout_gravity="center"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+
+        <!--<ImageView-->
+        <!--android:src="@drawable/ic_live_help_black_24dp"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" />-->
+
+        <!--<TextView-->
+        <!--android:text="Lí do chi"-->
+        <!--android:layout_marginLeft="15dp"-->
+        <!--android:textSize="20sp"-->
+        <!--android:textColor="#000"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" />-->
+
+
+        <!--<EditText-->
+        <!--android:id="@+id/edt_fab_Lydochi"-->
+        <!--android:hint="Bắt buộc với chi thường"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content" />-->
+
+        <!--</LinearLayout>-->
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:src="@drawable/ic_crop_rotate_black_24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="Lặp lại hàng ngày"
+                android:layout_marginLeft="15dp"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+        <RadioGroup
+            android:id="@+id/rg_fab_chi_laplai"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rb_fab_chi_Colap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Có lặp"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:layout_marginRight="20dp"
+                android:checked="false" />
+
+            <RadioButton
+                android:id="@+id/rb_fab_chi_Khonglap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Không lặp"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:checked="false" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:src="@drawable/ic_question_answer_black_24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="Ghi chú"
+                android:layout_marginLeft="15dp"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/edt_fab_Ghichuchi"
+                android:hint="Không bắt buộc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:id="@+id/btnBoquachi"
+                android:text="Bỏ qua"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnThemvaochi"
+                android:text="Thêm vào"
+                android:layout_marginLeft="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

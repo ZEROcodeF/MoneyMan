@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/layout_xemchitiet"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvTenvi"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <ListView
+            android:id="@+id/list_cachoatdong"
+            android:dividerHeight="0dp"
+            android:divider="@null"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </ListView>
+
+        <TextView
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_xemchitiet_OK"
+        android:text="OK"
+        android:gravity="center"
+        android:layout_marginBottom="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
+
+
+    <!--<LinearLayout--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--android:orientation="vertical"--><!--xmlns:android="http://schemas.android.com/apk/res/android">-->
+
+    <!--<TextView--><!--android:id="@+id/tvTenvi"--><!--android:textSize="30sp"--><!--android:textStyle="bold"--><!--android:textColor="#000"--><!--android:gravity="center"--><!--android:layout_gravity="center"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content" />-->
+
+    <!--<ListView--><!--android:id="@+id/list_cachoatdong"--><!--android:layout_width="match_parent"--><!--android:layout_height="wrap_content"--><!--android:divider="@null"--><!--android:dividerHeight="0dp">-->
+
+    <!--</ListView>--><!--<Button--><!--android:id="@+id/btn_xemchitiet_OK"--><!--android:text="OK"--><!--android:gravity="center"--><!--android:layout_gravity="center"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content" />-->
+
+    <!--</LinearLayout>-->

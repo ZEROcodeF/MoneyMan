@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvOtherUnitsTotalTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="9,000,000,000VND gồm"
+        android:padding="@dimen/scale_size_small"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/text_size_medium"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/tvOtherUnitsAUD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/scale_size_small"
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/scale_size_big"
+        android:layout_marginRight="@dimen/scale_size_big"
+        android:weightSum="4">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="AUD"
+            android:textSize="@dimen/text_size_medium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvOtherUnitsAUDAmount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="right"
+            android:text="20,000AUD"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_size_medium" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tvOtherUnitsEUR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/scale_size_tiny"
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/scale_size_big"
+        android:layout_marginRight="@dimen/scale_size_big"
+        android:weightSum="4">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="EUR"
+            android:textSize="@dimen/text_size_medium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvOtherUnitsEURAmount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="right"
+            android:text="20,000AUD"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_size_medium" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tvOtherUnitsGBP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/scale_size_tiny"
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/scale_size_big"
+        android:layout_marginRight="@dimen/scale_size_big"
+        android:weightSum="4">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="GBP"
+            android:textSize="@dimen/text_size_medium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvOtherUnitsGBPAmount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="right"
+            android:text="20,000AUD"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_size_medium" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tvOtherUnitsJPY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/scale_size_tiny"
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/scale_size_big"
+        android:layout_marginRight="@dimen/scale_size_big"
+        android:weightSum="4">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="JPY"
+            android:textSize="@dimen/text_size_medium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvOtherUnitsJPYAmount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="right"
+            android:text="20,000AUD"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_size_medium" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tvOtherUnitsUSD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/scale_size_tiny"
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/scale_size_big"
+        android:layout_marginRight="@dimen/scale_size_big"
+        android:weightSum="4">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="USD"
+            android:textSize="@dimen/text_size_medium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvOtherUnitsUSDAmount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="right"
+            android:text="20,000AUD"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_size_medium" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tvOtherUnitsVND"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/scale_size_tiny"
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/scale_size_big"
+        android:layout_marginRight="@dimen/scale_size_big"
+        android:weightSum="4">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="VND"
+            android:textSize="@dimen/text_size_medium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvOtherUnitsVNDAmount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="right"
+            android:text="20,000AUD"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_size_medium" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvOtherUnitsInfo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/scale_size_small"
+        android:gravity="center_horizontal"
+        android:text="info info"
+        android:textColor="@color/colorAccent"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/btnOtherUnitsDismiss"
+        android:layout_width="100sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/scale_size_normal"
+        android:layout_marginLeft="120sp"
+        android:layout_marginRight="120sp"
+        android:background="@drawable/bg_button_teal"
+        android:text="Đóng"
+        android:layout_marginBottom="@dimen/scale_size_normal"
+        android:textColor="@color/colorWhite" />
+
+</LinearLayout>

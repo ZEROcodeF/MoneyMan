@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorWhite"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/tvTaovidautien"
+        android:text="Tạo ví đầu tiên"
+        android:textSize="@dimen/text_size_big"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:layout_margin="@dimen/scale_size_big"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edtTenvi"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/scale_size_normal"
+        android:inputType="textCapWords"
+        android:drawableLeft="@drawable/ic_account_balance_wallet_black_24dp"
+        android:drawablePadding="@dimen/scale_size_normal"
+        android:drawableTint="@color/colorPrimary"
+        android:hint="Nhập tên ví"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/teal_background_edit_text_hint_color" />
+
+    <EditText
+        android:id="@+id/edtTienbandau"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/scale_size_big"
+        android:drawableLeft="@drawable/ic_monetization_on_black_24dp"
+        android:drawablePadding="@dimen/scale_size_normal"
+        android:drawableTint="@color/colorPrimary"
+        android:hint="Nhập số tiền ban đầu"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/teal_background_edit_text_hint_color"
+        android:inputType="numberDecimal"
+        android:drawableStart="@drawable/ic_monetization_on_black_24dp" />
+
+    <TextView
+        android:textSize="@dimen/text_size_small"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ngày tạo ví"
+        android:paddingLeft="@dimen/scale_size_small"
+        android:paddingRight="@dimen/scale_size_small"
+        android:textStyle="italic" />
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/scale_size_small"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/scale_size_big"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@drawable/ic_date_range_black_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tint="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/tvNgaytaovi"
+            android:layout_marginLeft="15dp"
+            android:textSize="@dimen/text_size_small"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginStart="15dp" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnTao"
+        android:text="Tạo"
+        android:textColor="@color/colorWhite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_button_teal" />
+
+</LinearLayout>
